@@ -63,10 +63,10 @@ namespace EDI.Core.V1
             {
                 return _errorHandler.Error(ex, "PostContainers", Tuple.Create(new List<ItemContainer>(), false));
             }
-            
+
         }
 
-        public List<ItemContainer> ProcessEDI(string inputEDIFilename) 
+        public List<ItemContainer> ProcessEDI(string inputEDIFilename)
         {
             var grammar = EdiGrammar.NewX12();
             grammar.SetAdvice(

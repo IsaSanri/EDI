@@ -1,5 +1,4 @@
-﻿
-namespace EDI.Contracts.Generics
+﻿namespace EDI.Contracts.Generics
 {
     public interface IGenericActionDbAdd<T> where T : class
     {

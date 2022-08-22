@@ -75,7 +75,7 @@ namespace EDI.Entities.Entities
             [EdiValue("9(4)", Path = "B4/4", Format = "HHmm", Description = "B405 - Time")]
             public DateTime Date { get; set; }
             [EdiValue(Path = "B4/5", Description = "B406 - Status Location ")]
-            public string StatusLocation  { get; set; }
+            public string StatusLocation { get; set; }
             [EdiValue(Path = "B4/6", Description = "B407 - Equipment Initial - Prefix or alphabetic part of an equipment unit's identifying number")]
             public string EquipmentInitial { get; set; }
             [EdiValue(Path = "B4/7", Description = "B408 - Equipment Number - Sequencing or serial part of an equipment unit's identifying number")]

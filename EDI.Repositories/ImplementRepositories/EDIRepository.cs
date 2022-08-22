@@ -24,7 +24,7 @@ namespace EDI.Repositories.ImplementRepositories
             {
                 throw;
             }
-            
+
         }
 
         public async Task<List<ItemContainer>> GetAllAsync()
@@ -82,7 +82,7 @@ namespace EDI.Repositories.ImplementRepositories
         {
             try
             {
-                ItemResponse<ItemContainer> response = await _context.UpsertItemAsync(item, new PartitionKey(id));
+                ItemResponse<ItemContainer> response = await _context.UpsertItemAsync(item, new PartitionKey(id)); ;
                 return true;
             }
             catch (CosmosException)

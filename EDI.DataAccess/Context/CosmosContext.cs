@@ -1,5 +1,4 @@
-﻿
-using EDI.Entities.Entities;
+﻿using EDI.Entities.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace EDI.DataAccess.Context

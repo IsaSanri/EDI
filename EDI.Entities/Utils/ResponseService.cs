@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿
+using System.Net;
 
 namespace EDI.Entities.Utils
 {
@@ -18,3 +19,4 @@ namespace EDI.Entities.Utils
         }
     }
 }
+
