@@ -7619,3 +7619,109 @@ System.Net.Http.HttpRequestException: No such host is known. (b3e0bfa5-0ee0-4-23
 2022-08-21 01:03:10.352 -05:00 [INF] Executed action EDI.Services.Controllers.EDIController.Get (EDI.Services) in 118.436ms
 2022-08-21 01:03:10.352 -05:00 [INF] Executed endpoint 'EDI.Services.Controllers.EDIController.Get (EDI.Services)'
 2022-08-21 01:03:10.353 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/api/EDI - - - 200 - application/json;+charset=utf-8 124.2732ms
+2022-08-23 09:01:10.008 -05:00 [INF] User profile is available. Using 'C:\Users\ISABELLE SANCHEZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-23 09:01:10.529 -05:00 [INF] Now listening on: https://localhost:7028
+2022-08-23 09:01:10.530 -05:00 [INF] Now listening on: http://localhost:5028
+2022-08-23 09:01:10.536 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-23 09:01:10.537 -05:00 [INF] Hosting environment: Development
+2022-08-23 09:01:10.538 -05:00 [INF] Content root path: C:\Users\ISABELLE SANCHEZ\Documents\Backend\EDI\EDI\EDI.Services
+2022-08-23 09:01:11.103 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger - -
+2022-08-23 09:01:11.189 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger - - - 301 0 - 91.3342ms
+2022-08-23 09:01:11.202 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/index.html - -
+2022-08-23 09:01:11.402 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/swagger-ui-standalone-preset.js - -
+2022-08-23 09:01:11.402 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - -
+2022-08-23 09:01:11.402 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/swagger-ui-bundle.js - -
+2022-08-23 09:01:11.402 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/swagger-ui.css - -
+2022-08-23 09:01:11.403 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/index.html - - - 200 - text/html;charset=utf-8 201.7137ms
+2022-08-23 09:01:11.408 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.6762ms
+2022-08-23 09:01:11.423 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-08-23 09:01:11.439 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/swagger-ui.css - - - 200 143943 text/css 37.0164ms
+2022-08-23 09:01:11.444 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-08-23 09:01:11.447 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 43.7183ms
+2022-08-23 09:01:11.458 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-08-23 09:01:11.459 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/swagger-ui-bundle.js - - - 200 1096145 application/javascript 57.5680ms
+2022-08-23 09:01:11.632 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - -
+2022-08-23 09:01:11.656 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/favicon-32x32.png - -
+2022-08-23 09:01:11.657 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-08-23 09:01:11.658 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/favicon-32x32.png - - - 200 628 image/png 1.7930ms
+2022-08-23 09:01:11.770 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.0277ms
+2022-08-23 09:01:34.426 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/ - -
+2022-08-23 09:01:34.453 -05:00 [INF] CORS policy execution successful.
+2022-08-23 09:01:34.458 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/ - - - 204 - - 32.3545ms
+2022-08-23 09:01:34.461 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/api/ - -
+2022-08-23 09:01:34.464 -05:00 [INF] CORS policy execution successful.
+2022-08-23 09:01:34.946 -05:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2022-08-23 09:01:34.951 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/api/ - - - 404 0 - 489.7648ms
+2022-08-23 09:01:56.734 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/ - -
+2022-08-23 09:01:56.736 -05:00 [INF] CORS policy execution successful.
+2022-08-23 09:01:56.738 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/ - - - 204 - - 3.9533ms
+2022-08-23 09:01:56.740 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/api/ - -
+2022-08-23 09:01:56.741 -05:00 [INF] CORS policy execution successful.
+2022-08-23 09:01:56.743 -05:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2022-08-23 09:01:56.744 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/api/ - - - 404 0 - 4.9052ms
+2022-08-23 09:02:30.535 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/ - -
+2022-08-23 09:02:30.536 -05:00 [INF] CORS policy execution successful.
+2022-08-23 09:02:30.537 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/ - - - 204 - - 2.1241ms
+2022-08-23 09:02:30.542 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/ - -
+2022-08-23 09:02:30.547 -05:00 [INF] CORS policy execution successful.
+2022-08-23 09:02:30.549 -05:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2022-08-23 09:02:30.553 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/ - - - 404 0 - 11.1603ms
+2022-08-23 09:02:32.283 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/ - -
+2022-08-23 09:02:32.284 -05:00 [INF] CORS policy execution successful.
+2022-08-23 09:02:32.285 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/ - - - 204 - - 2.0800ms
+2022-08-23 09:02:32.286 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/api/ - -
+2022-08-23 09:02:32.287 -05:00 [INF] CORS policy execution successful.
+2022-08-23 09:02:32.288 -05:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2022-08-23 09:02:32.290 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/api/ - - - 404 0 - 3.5683ms
+2022-08-23 09:07:45.936 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/ - -
+2022-08-23 09:07:45.936 -05:00 [INF] CORS policy execution successful.
+2022-08-23 09:07:45.937 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/ - - - 204 - - 1.8668ms
+2022-08-23 09:07:45.942 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/api/ - -
+2022-08-23 09:07:45.944 -05:00 [INF] CORS policy execution successful.
+2022-08-23 09:07:45.944 -05:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2022-08-23 09:07:45.945 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/api/ - - - 404 0 - 2.9430ms
+2022-08-23 09:10:35.090 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/api/EDI - -
+2022-08-23 09:10:35.099 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2022-08-23 09:10:35.107 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-08-23 09:10:35.108 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/api/EDI - - - 401 0 - 18.5184ms
+2022-08-23 09:12:55.609 -05:00 [INF] User profile is available. Using 'C:\Users\ISABELLE SANCHEZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-23 09:12:55.858 -05:00 [INF] Now listening on: https://localhost:7028
+2022-08-23 09:12:55.858 -05:00 [INF] Now listening on: http://localhost:5028
+2022-08-23 09:12:55.861 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-23 09:12:55.861 -05:00 [INF] Hosting environment: Development
+2022-08-23 09:12:55.862 -05:00 [INF] Content root path: C:\Users\ISABELLE SANCHEZ\Documents\Backend\EDI\EDI\EDI.Services
+2022-08-23 09:12:56.591 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/index.html - -
+2022-08-23 09:12:56.800 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - -
+2022-08-23 09:12:56.804 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/index.html - - - 200 - text/html;charset=utf-8 216.6694ms
+2022-08-23 09:12:56.808 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.0582ms
+2022-08-23 09:12:56.998 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - -
+2022-08-23 09:12:57.109 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.5775ms
+2022-08-23 09:13:01.318 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/api/EDI - -
+2022-08-23 09:13:01.435 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2022-08-23 09:13:01.446 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-08-23 09:13:01.449 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/api/EDI - - - 401 0 - 131.2045ms
+2022-08-23 09:13:23.396 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7028/api/EDI - 0
+2022-08-23 09:13:23.402 -05:00 [INF] CORS policy execution successful.
+2022-08-23 09:13:23.407 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2022-08-23 09:13:23.409 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-08-23 09:13:23.410 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7028/api/EDI - 0 - 401 0 - 14.4103ms
+2022-08-23 09:16:13.147 -05:00 [INF] User profile is available. Using 'C:\Users\ISABELLE SANCHEZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-23 09:16:13.406 -05:00 [INF] Now listening on: https://localhost:7028
+2022-08-23 09:16:13.407 -05:00 [INF] Now listening on: http://localhost:5028
+2022-08-23 09:16:13.411 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-23 09:16:13.412 -05:00 [INF] Hosting environment: Development
+2022-08-23 09:16:13.413 -05:00 [INF] Content root path: C:\Users\ISABELLE SANCHEZ\Documents\Backend\EDI\EDI\EDI.Services
+2022-08-23 09:16:13.751 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/index.html - -
+2022-08-23 09:16:13.959 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - -
+2022-08-23 09:16:13.965 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/index.html - - - 200 - text/html;charset=utf-8 217.0731ms
+2022-08-23 09:16:13.969 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 9.8123ms
+2022-08-23 09:16:14.065 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - -
+2022-08-23 09:16:14.180 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.5114ms
+2022-08-23 09:16:20.046 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7028/api/EDI - -
+2022-08-23 09:16:20.149 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2022-08-23 09:16:20.156 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-08-23 09:16:20.161 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7028/api/EDI - - - 401 0 - 115.1834ms

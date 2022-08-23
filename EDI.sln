@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDI.Core", "EDI.Core\EDI.Core.csproj", "{F90D1E4F-5FCC-4E6A-B398-2301ECAA475D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDI.Core", "EDI.Core\EDI.Core.csproj", "{F90D1E4F-5FCC-4E6A-B398-2301ECAA475D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FED29328-EDBB-452C-B19C-69FA032B38AC} = {FED29328-EDBB-452C-B19C-69FA032B38AC}
+		{5A39F293-8842-461D-AA68-1AE13C048313} = {5A39F293-8842-461D-AA68-1AE13C048313}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDI.Entities", "EDI.Entities\EDI.Entities.csproj", "{2E9E1C97-F812-4CC7-A6BC-37F4AA711E09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDI.Entities", "EDI.Entities\EDI.Entities.csproj", "{2E9E1C97-F812-4CC7-A6BC-37F4AA711E09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDI.DataAccess", "EDI.DataAccess\EDI.DataAccess.csproj", "{5A39F293-8842-461D-AA68-1AE13C048313}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDI.DataAccess", "EDI.DataAccess\EDI.DataAccess.csproj", "{5A39F293-8842-461D-AA68-1AE13C048313}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDI.Services", "EDI.Services\EDI.Services.csproj", "{2C396B7B-2831-48E3-B6E8-A5EC8FDC28CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDI.Services", "EDI.Services\EDI.Services.csproj", "{2C396B7B-2831-48E3-B6E8-A5EC8FDC28CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDI.Contracts", "EDI.Contracts\EDI.Contracts.csproj", "{CB1925F1-8675-4498-95CC-DD30271DDD7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDI.Contracts", "EDI.Contracts\EDI.Contracts.csproj", "{CB1925F1-8675-4498-95CC-DD30271DDD7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDI.Repositories", "EDI.Repositories\EDI.Repositories.csproj", "{FED29328-EDBB-452C-B19C-69FA032B38AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDI.Repositories", "EDI.Repositories\EDI.Repositories.csproj", "{FED29328-EDBB-452C-B19C-69FA032B38AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
